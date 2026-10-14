@@ -1,0 +1,19 @@
+npm install
+npm init -y
+npm install express
+node rest.js
+
+next terminal
+
+get
+curl http://localhost:4000/api/students
+post
+curl -X POST -H "Content-Type: application/json" -d "{\"name\":\"Divya\",\"department\":\"ECE\"}" http://localhost:4000/api/students
+put
+curl -X PUT -H "Content-Type: application/json" -d "{\"department\":\"IT\"}" http://localhost:4000/api/students/1
+delete
+curl -X DELETE http://localhost:4000/api/students/2
+
+| Command      | Target       | Value                      |
+| ------------ | ------------ | -------------------------- |
+| `assertText` | `id=message` | `Registration successful!` |

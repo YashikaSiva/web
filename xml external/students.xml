@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+
+<!DOCTYPE students SYSTEM "students.dtd">
+
+<students>
+    <student>
+        <rollno>101</rollno>
+        <name>Arun</name>
+        <department>IT</department>
+        <mark>85</mark>
+    </student>
+
+    <student>
+        <rollno>102</rollno>
+        <name>Priya</name>
+        <department>CSE</department>
+        <mark>92</mark>
+    </student>
+
+    <student>
+        <rollno>103</rollno>
+        <name>Rahul</name>
+        <department>ECE</department>
+        <mark>65</mark>
+    </student>
+
+    <student>
+        <rollno>104</rollno>
+        <name>Divya</name>
+        <department>IT</department>
+        <mark>78</mark>
+    </student>
+</students>
+//mandatory field//
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+
+<!DOCTYPE students SYSTEM "students.dtd">
+
+<students>
+    <student id="101">
+        <name>Arun</name>
+        <department>IT</department>
+        <mark>85</mark>
+    </student>
+
+    <student id="102">
+        <name>Priya</name>
+        <department>CSE</department>
+        <mark>92</mark>
+    </student>
+
+    <student id="103">
+        <name>Rahul</name>
+        <department>ECE</department>
+        <mark>40</mark>
+    </student>
+</students>

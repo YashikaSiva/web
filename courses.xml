@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="courses.xsl"?>
+<!DOCTYPE courses[
+<!ELEMENT courses (course+)>
+<!ELEMENT course (studentname, regno, mark?)>
+<!ELEMENT studentname (#PCDATA)>
+<!ELEMENT regno (#PCDATA)>
+<!ELEMENT mark (#PCDATA)>
+
+]>
+<courses>
+<course>
+  <studentname>Yashika</studentname>
+  <regno>670761</regno>
+  <mark>100</mark>
+</course>
+<course>
+  <studentname>Yash</studentname>
+  <regno>670760</regno>
+  <mark>90</mark>
+</course>
+</courses>
